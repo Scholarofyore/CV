@@ -1,0 +1,228 @@
+<!Doctype html>
+<html>
+<head>
+ <title>Swift Networks</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+ <style>
+  #container {
+   display: flex;
+   width: 72%;
+   align-items: stretch;
+   margin: 0 auto;
+   border: 1px solid lightgray;
+   box-shadow: 8px 8px 6px #a8a6a6;
+   flex-flow: row nowrap;
+   font-family:'Open Sans', sans-serif;;
+    }
+
+  #main {
+  width: 82%;
+  font-size: 3rem;
+  position; relative;
+  }
+
+  #aside {
+   background-color: #c91717;
+   width: 18%;
+    }
+
+/* Table Css */
+  table {
+     margin: 0.5rem auto 0 auto;
+     border-collapse: collapse;
+     width: 71%;
+   }
+  th, td {
+   font-size: 1.3rem;
+   text-align: center;
+   border: 2.6px solid black;
+   height: 42px;
+   }
+
+  th {
+  background-color: #c91717;
+  color: white;
+  }
+
+  #secondheading {
+    font-size: 143%;
+    color: #c91717;
+    font-style: italic;
+    letter-spacing: 3px;
+    line-height: 4.5rem;
+    margin: 0.5rem auto;
+    
+     }
+
+  #firstheading {
+     font-size: 138%;
+     font-stretch: ultra-expanded;
+     font-style: italic;
+     letter-spacing: 3px;
+     line-height: 5rem;
+     margin: 0rem auto;
+     }
+
+  #firstheading, #secondheading, th, td, #thirdheading, #fourthheading, #fifthheading {
+    font-weight: bold;
+    text-align: center;
+  } 
+
+  #sixthheading, .text {
+    text-align: center;
+    margin: 0 auto;
+    }
+
+  #fifthheading {
+   margin-bottom: 0;
+   line-height: 2.5rem;
+   letter-spacing: 1.5px;
+   font-size: 2.5rem;
+    }
+
+  #thirdheading {
+    letter-spacing: 1px;
+    margin: 0.5rem auto 3rem auto;
+   }
+
+  #sixthheading {
+    margin-bottom: 2rem;
+   }
+
+  #fourthheading, .text, #sixthheading {
+   font-size: 1.5rem;
+    }
+
+  .red {
+   color: #c91717
+   }
+
+  #thirdheading {
+   font-size: 3rem;
+   font-style: italic;
+   }
+
+  #fourthheading {
+   margin-bottom: 0;
+   }
+
+  #fourthheading, .text {
+   line-height: 1.9rem;
+  }
+
+ /* Images Positioning */
+  #mail {
+    position: absolute;
+    bottom: 25%;
+    left: 27.8%; 
+    width: 30px; 
+    height: 23px;
+   }
+  #phone { 
+   position: absolute;
+   bottom: 21%;
+   left: 25.7%;
+   width: 30px;
+   height: 32px;
+   }
+  #phone2 { 
+   position: absolute;
+   bottom: 17.5%;
+   left: 33.2%;
+   width: 30px;
+   height: 32px;
+   }
+  #swiftlogo { 
+   position: absolute;
+   bottom: 3%;
+   left: 23.6%;
+   width: 86px; 
+   height: 100px;
+   }
+
+ /* Aside Styles */
+ #aside {
+  position: relative;
+  }
+ #asidefooter {
+  position: absolute;
+  bottom: 3rem;
+  left: 2.3rem;
+   color: white;
+   }
+
+ #aside1 {
+  font-size: 0.7rem;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+  }
+ #aside2 {
+  font-size: 0.5rem;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  }
+ </style>
+</head>
+<body>
+<div id="container">
+ <div id="main">
+  <p id="firstheading">Key Service Plans</p>
+  <p id="secondheading">SWIFT Fibre+</p>
+  <table>
+   <tr> 
+    <th>General</th>
+    <th>FTTX Plan</th>
+    <th>Amount Plans</th>
+   </tr>
+   <tr>
+    <td></td>
+    <td>10mbps</td>
+    <td>N10,800</td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>20mbps</td>
+    <td>N19,850</td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>35mbps</td>
+    <td>N29,850</td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>40mbps</td>
+    <td>N35,830</td>
+   </tr>
+   <tr>
+    <td></td>
+    <td>50mbps</td>
+    <td>N44,000</td>
+   </tr>
+  </table>
+ <p id="thirdheading">Plus a signup fee of <span class="red">N25K</span></p>
+ <P id="fourthheading"><b>For inquiries:</b></p>
+ <P class="text" style="font-size: 1.7rem;"><img src="images/envelope-regular-36.png" id="mail">customercare@swiftng.com</p>
+ <P class="text"><img src="images/phone-regular-36.png" id="phone">08029817870, 08131817871<b> (Destiny)</b> </p>
+ <P class="text"><img src="images/phone-regular-36.png" id="phone2">07031002476<b> (Ehiz)</b></p>
+  <img src="images/swift.jpg" id="swiftlogo" id="swiftlogo">
+  <p id="fifthheading">SWIFT NETWORKS</p>
+  <p id="sixthheading"><span class="red"><b>Together</b></span> We Can Achieve More</p>
+ </div>
+ <div id="aside">
+  <div id="asidefooter"><p id="aside1"><b>SWIFT</b> NETWORKS</p>
+  <p id="aside2">Do More.Achieve More</p>
+  </div>
+ </div>
+</div>
+<body>
+</html>
